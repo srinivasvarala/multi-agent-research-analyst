@@ -151,17 +151,6 @@ multi-agent-research-analyst/
 └── scripts/               ← Ingestion CLI scripts for SEC, transcripts, news
 ```
 
-## Development Phases
-
-| Phase | Status | Scope |
-|---|---|---|
-| 0 | ✅ Done | Project scaffold, models, directory structure |
-| 1 | 🚧 In progress | SecFilingsAgent + hybrid retrieval, end-to-end pipeline |
-| 2 | ⬜ | EarningsCallAgent + NewsAgent + OrchestratorAgent routing |
-| 3 | ⬜ | SynthesisAgent + CriticAgent + SharedMemory |
-| 4 | ⬜ | FastAPI + Streamlit UI |
-| 5 | ⬜ | Eval harness + streaming + polish |
-
 ## Data Sources
 
 All sources are free and publicly available:
