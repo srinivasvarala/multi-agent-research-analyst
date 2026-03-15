@@ -1,0 +1,44 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data (too large for git — document in README how to regenerate)
+data/raw/
+data/vectorstore/
+
+# Processed data is OK to commit (small JSON metadata files)
+# data/processed/ — leave this uncommitted
+data/processed/
+
+# Claude Code internal files (memory, plans)
+.claude/
+
+# Claude Code session guide (internal use only)
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
